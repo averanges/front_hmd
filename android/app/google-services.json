@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "959313532065",
+    "project_id": "haimdall-v2",
+    "storage_bucket": "haimdall-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959313532065:android:6499d0ff630ea38a58cce0",
+        "android_client_info": {
+          "package_name": "com.thankscarbon.haimdall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959313532065-3j2b9ccg59pgftisu4q994bg2q0bdjs3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thankscarbon.haimdall",
+            "certificate_hash": "b8561f7277c4b8973b636298d27b6c551155fea2"
+          }
+        },
+        {
+          "client_id": "959313532065-sd8tsvc2q07qaqa4cdjm656n3phu5mdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcvB2DtDEexvZ7AGu0pOHyZ1pYM-YqnjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959313532065-sd8tsvc2q07qaqa4cdjm656n3phu5mdt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "959313532065-frjac6pfqg6ehso0t5ea51jolqrrmuk7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thankscarbon.haimdall",
+                "app_store_id": "6670794584"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+import 'dart:convert';
+import 'dart:io';
+
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:get/get.dart';
+import 'package:haimdall/env/build_type.dart';
+import 'package:haimdall/env/environment.dart';
+import 'package:haimdall/src/common/exception/exceptions.dart';
+import 'package:haimdall/src/common/extensions/extension_string.dart';
+import 'package:haimdall/src/common/logger/logger.dart';
+import 'package:haimdall/src/common/manager/storage_manager/storage_manager.dart';
+import 'package:haimdall/src/data/network/model/request/auth/auth_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_change_schedule_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_drain_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_drain_water_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_planting_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_record_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_update_basic_info_request.dart';
+import 'package:haimdall/src/data/network/model/request/farmland/farmland_watering_request.dart';
+import 'package:haimdall/src/data/network/model/request/signup/signup_user_request.dart';
+import 'package:http/http.dart' as http;
+import 'package:package_info_plus/package_info_plus.dart';
+
+part 'api/auth_api.dart';
+part 'api/farmland_api.dart';
+part 'api/signup_api.dart';
+part 'client/api_client.dart';
+part 'client/base_network_client.dart';
+part 'client/network_client.dart';
+part 'constants/network_constants.dart';
+part 'model/network_error.dart';
+part 'model/network_result.dart';
